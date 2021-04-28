@@ -1,9 +1,9 @@
 # Minhas soluções do CodeWars.
 
-##Tecnologias:
+## Tecnologias:
 Python;
 JavaScript;
 
-##Autor:
+## Autor:
 Renan Souza
 
