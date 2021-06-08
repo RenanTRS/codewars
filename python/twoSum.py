@@ -5,3 +5,20 @@
 #always be the sum of two different items from that array).
 
 
+def two_sum(numbers, target):
+    resp = ()
+    for c in range(0, 3):
+        for x in range(0, 3):
+            if c != x and numbers[c] + numbers[x] == target:
+                return [c, x]
+                #resp = c, x
+                #resp.append(c, x)
+                #resp.append(x)
+                break
+    #return resp
+    
+
+#two_sum([1,2,3], 4)
+print(sorted(two_sum([1,2,3], 4)), [0,2])
+print(sorted(two_sum([1234,5678,9012], 14690)), [1,2])
+print(sorted(two_sum([2,2,3], 4)), [0,1])
