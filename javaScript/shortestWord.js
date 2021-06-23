@@ -3,7 +3,18 @@
 
 
 function findShort(s){
-    document.write('teste');
+    var lista = s.split(' '); //Transforma em lista como o teste.split() do python
+    var menor;
+    for(var i = 0; i < lista.length; i++){
+        if(i == 0){
+            menor = lista[i].length;
+        }
+        else if(menor > lista[i].length){
+            menor = lista[i].length;
+        }
+    }
+    return console.log(menor);
+    
 }
 
 findShort("bitcoin take over the world maybe who knows perhaps");
